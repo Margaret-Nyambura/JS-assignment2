@@ -1,0 +1,223 @@
+#container{
+
+}
+#topbar{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    color: orangered;
+}
+#body-image{
+    background-image: url(images/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 80%;
+    height: 800px;
+}
+.body-text{
+   color: wheat; 
+   text-align: center;
+   padding-top: 200px;
+   font-size: 2.5em;
+
+}
+button{
+    border-radius: 5px;
+    background-color: yellow;
+}
+.image2{
+    padding-top: 50px;
+}
+.set1{
+    display: flex;
+    gap: 70px;
+}
+.set2{
+    display: flex;
+    gap: 100px;
+}
+
+.middle{
+    color: orangered;
+}
+#logos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.head1{
+    color: orangered;
+}
+#middle-body{
+    text-align: center;
+}
+#logoset2{
+    display: flex;
+    gap: 100px;
+    margin-left: 15%;
+}
+.logob{
+    background-color: blue;
+
+}
+#body3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#content{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+#image-body{
+    background-color: blue;
+    width: 25%;
+    background-image: url(images/boxes.webp);
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+.overlay-text{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.lead{
+    color: orangered;
+}
+#body4{
+    display: flex;
+    justify-content: space-around;
+}
+.btext{
+    padding-right: 20%;
+}
+.line1{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#bottom-part{
+    background-image: url(images/movingin.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.bottom-text{
+display: flex;
+padding-top: 500px;
+}
+.bt1{
+    background-color: yellow;
+    width: 25%;
+    height: 350px;
+    padding-bottom: 55px;
+    margin-bottom: 10%;
+}
+.details{
+    background-color: blue;
+    width: 30%;
+    height: 400px;
+}
+#testimonies{
+    text-align: center;
+
+}
+#opinions{
+    display: flex;
+    justify-content: space-around;
+}
+#news{
+    text-align: center;
+    padding-top: 150px;
+}
+#register{
+    text-align: center;
+display: flex;
+justify-content: space-around;
+}
+#blog{
+    text-align: center;
+    padding-top: 150px;
+}
+.com1{
+    background-image: url(images/boxmoving1.jpeg);
+    height: 500px;
+    width: 20%;
+    background-repeat: no-repeat;
+}
+
+.com2{
+    height: 500px;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-image: url(images/boxmoving2.jpg);
+}
+.com3{
+    height: 500px;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-image: url(images/boxmoving3.jpg);
+}
+#bottom-images{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    padding: 55px;
+}
+#bottom-text{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    width: 40%;
+    align-items: center;
+    margin-left: 15%;
+    padding: 50px;
+
+}  
+h3{
+    color: aliceblue;
+}
+.down-button{
+    background-color: black;
+    color: wheat;
+    border: 1px solid black;
+    padding: 15px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 46%;
+    margin-left: 15%;
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+#footer-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.twitter{
+    margin-right: 400px;
+}
+.facebook{
+    margin-right: 200px;
+}
+@media screen  and (max-width: 100px){ .left, .main, .right{
+    width: 100%;
+}
+
+}
+    
+
